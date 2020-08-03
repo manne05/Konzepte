@@ -1,8 +1,17 @@
-# Mit sets arbeiten - ein set speichert Variablen gleichen Datentyps
+# Mit Mengen arbeiten - ein set speichert Variablen gleichen Datentyps
 # Deklaration mit geschweiften Klammern {}
 # Beispiel 1:
 numSet = {1, 2, 3, 4, 5}
 print('numSet = ', numSet)
+
+# Initialisieren einer leeren Menge
+emptySet = set()
+print('leere Menge: ', emptySet)
+
+#Hinzufügen von Werten zu einer Menge
+emptySet.add(1)
+print('nicht mehr leere Menge: ', emptySet)
+
 
 dict1 = {'a': 1, 'b': 2}
 dict2 = {'c': 3, 'd': 4}
